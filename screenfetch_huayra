@@ -10,9 +10,8 @@
 #             Se probó en version: 2.2 (32bits).
 
 # Uso:
-#     Con permisos de ejecución se debe ejecutar el script en una terminal y se instalará todo automáticamente.
-#     Se abre una terminal y se usa el comando: screenfetch
-#     Disfrutar.
+#     Se deben otorgar permisos de ejecución a este archivo, luego se debe ejecutar el script en una terminal y se instalará todo automáticamente.
+#     Para usar, se abre una terminal y se usa el comando: screenfetch
 
 # Edición en GitHub: https://github.com/JulioAGomez/vientosencillo/blob/master/screenfetch_huayra
 
