@@ -10,12 +10,12 @@
 #             Se probó en version: 2.2 (32bits).
 
 # Uso:
-#     Se deben otorgar permisos de ejecución a este archivo, luego se debe ejecutar el script en una terminal y se instalará todo automáticamente.
+#     Se deben otorgar permisos de ejecución a este archivo, luego se debe ejecutar el script en una terminal y se instalará automáticamente.
 #     Para usar, se abre una terminal y se usa el comando: screenfetch
 
 # Edición en GitHub: https://github.com/JulioAGomez/vientosencillo/blob/master/screenfetch_huayra
 
-# Debate en Foros comunidad Huayra:  
+# Debate en Foros comunidad Huayra: http://foros.comunidadhuayra.org/index.php/topic,1424.0.html
 
 # Licencia: General Public License Version 3 (GPL v3) (en inglés, válida legalmente)
 #           http://www.gnu.org/licenses/gpl.txt
@@ -25,7 +25,7 @@
 
 echo instalador de screenfetch
 
-echo ...dentro 5 seg se inicia el script, o cierre la terminal
+echo ...dentro 5 seg se inicia el script, para cancelar cierre la terminal.
 
 sleep 5s
 
