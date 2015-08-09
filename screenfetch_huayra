@@ -10,8 +10,8 @@
 #             Se probó en version: 2.2 (32bits).
 
 # Uso: 
-#     1) Otorgar permisos de ejecución al archivo "screenfetch_huayra"
-#     2) Abrir con doble click y ejecutar en una terminal y se instalará automáticamente.
+#     1) Otorgar permisos de ejecución al archivo "screenfetch_huayra". (botón derecho sobre el archivo, selecionamos->"propiedades", en la pestaña ->"permisos", seleccionar la opción ->"ejecución: Permitir ejecutar el archivo como un programa".
+#     2) Abrir con doble click y seleccionar ->"ejecutar en un terminal" y se instalará automáticamente.
 #     3) Para usar, se abre una terminal y se usa el comando: screenfetch
 
 # Edición en GitHub: https://github.com/JulioAGomez/vientosencillo/blob/master/screenfetch_huayra
