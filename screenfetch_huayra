@@ -9,8 +9,9 @@
 #             Se espera que funcione correctamente, en Huayra GNU/Linux, con entorno Mate activo.
 #             Se probó en version: 2.2 (32bits).
 
-# Uso:
-#     Se deben otorgar permisos de ejecución a este archivo, luego se debe ejecutar el script en una terminal y se instalará automáticamente.
+# Uso: 
+#   1) darle permisos de ejecución ach_huayra"
+#     2)        o archivo, con doble click o desde una terminalSe deben otorgar permisos de ejecución a este archivo, luego se debe ejecutar el script en una terminal y se instalará automáticamente.
 #     Para usar, se abre una terminal y se usa el comando: screenfetch
 
 # Edición en GitHub: https://github.com/JulioAGomez/vientosencillo/blob/master/screenfetch_huayra
