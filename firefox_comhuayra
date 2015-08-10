@@ -1,0 +1,35 @@
+#!/bin/bash
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=
+ 
+# firefox_comhuayra: Script para instalar automaticamente Firefox en Huayra GNU/Linux.
+# 
+# Autor: Julio A. GÓMEZ, Melincué, Santa Fe, Argentina.
+#
+# Contacto a: gomez-ja@hotmail.com.ar
+ 
+# Comentarios:
+#
+# Se espera que funcione correctamente en Huayra GNU/Linux, con entorno Mate activo.
+# Se probó en version: 2.2 (32bits,64bits).
+
+# Usos: 
+# 
+#      1) Otorgar permisos de ejecución al archivo "firefox_comhuayra". (botón derecho sobre el archivo, selecionamos->"propiedades", en la pestaña ->"permisos", seleccionar la opción ->"ejecución: Permitir ejecutar el archivo como un programa").
+#      2) Abrir con doble click y seleccionar ->"ejecutar en un terminal" y luego se instalará automáticamente.
+
+# Edición en GitHub: 
+# 
+# Debate en Foros comunidad Huayra: 
+
+# Licencia: General Public License Version 3 (GPL v3) (en inglés, válida legalmente)
+#           http://www.gnu.org/licenses/gpl.txt
+#           Licencia Pública General de GNU Versión 3 (en Español)
+#           (Traducciones NO oficiales, para facilitar interpretación)
+#           http://gugs.sindominio.net/licencias/
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=
+
+echo instalar Navegador Firefox.
+
+echo ...dentro 5 seg se inicia el script, para cancelar, cierre la terminal.
+
+sleep 5s
