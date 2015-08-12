@@ -25,9 +25,7 @@
 #           http://gugs.sindominio.net/licencias/
 
 echo instalador de screenfetch
-
 echo ...dentro 5 seg se inicia el script, para cancelar cierre la terminal.
-
 sleep 5s
 
 cd /usr/bin 
@@ -35,3 +33,7 @@ cd /usr/bin
 sudo wget -c https://raw.github.com/KittyKatt/screenFetch/master/screenfetch-dev -O screenfetch
 
 sudo chmod +x screenfetch
+
+echo Listo :D. Cerrando en 5 seg.
+sleep 5s
+exit
