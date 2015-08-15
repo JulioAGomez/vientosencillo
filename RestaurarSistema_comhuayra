@@ -13,3 +13,15 @@ linux /live-hd/vmlinuz boot=live live-config union=aufs live-media-path=/live-hd
 initrd /live-hd/initrd.img
 }
 ### END /etc/grub.d/38_custom ### 
+
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+menuentry 'Restaurar sistemas' {
+        insmod ext3
+        set root='(hd0,5)'
+        linux /live-hd/vmlinuz boot=live live-config union=aufs live-media-path=/live-hd toram bootfrom=/dev/sda5 noprompt noprompt ocs_live_run="/live/image/script-restore" ocs_live_extra_param="" ocs_live_keymap="NONE" ocs_live_batch="yes" ocs_lang="es_ES.UTF-8" nolocales
+        initrd /live-hd/initrd.img
+}
