@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu>
 	<menu id="root-menu" label="OpenBox 3">
-# estas primeras opciones son las que vienen por defecto en OpenBox, aunque estan un poco adaptadas
+# ---------------------------------------------
+# Las siguientes opciones son las que vienen por defecto en OpenBox, aunque estan un poco adaptadas.
+# ---------------------------------------------
 		<item label="Terminal">
 			<action name="Execute">
 				<execute>x-terminal-emulator</execute>
@@ -16,10 +18,15 @@
 			<action name="Restart"/>
 		</item>
 # ---------------------------------------------
+# ---------------------------------------------
 		<separator/>
 		<separator/>
 # ---------------------------------------------
-# El siguiente menú es imitación del menú que está en MATE, con la particularidad que incluidad todos los menú y submenú pero solo las aplicaciones que uso de cada uno.
+# ---------------------------------------------
+
+# ---------------------------------------------
+# El siguiente menú es imitación del menú que está en MATE, con la particularidad que incluye todos los menú y submenú pero solo las aplicaciones que uso de cada uno.
+# ---------------------------------------------
 		<menu id="root-menu-801026" label="Aplicaciones">
 			<menu id="root-menu-801026-251051" label="Accesorios">
 				<item label="Buscar archivos…">
@@ -257,7 +264,9 @@
 				</item>
 			</menu>
 		</menu>
+# ---------------------------------------------
 		<menu id="root-menu-873114" label="Sistema">
+# ---------------------------------------------
 			<menu id="root-menu-873114-405521" label="Preferencias">
 				<item label="Acerca de mí">
 					<action name="Execute">
@@ -339,7 +348,11 @@
 			</menu>
 		</menu>
 # ---------------------------------------------
+# ---------------------------------------------
 		<separator/>
+# ---------------------------------------------
+# ---------------------------------------------
+
 # ---------------------------------------------
 # Es el menu editable de Huayra, esta para poder tener una guía y poder extraer lo que sea necesario
 # ---------------------------------------------
@@ -348,13 +361,17 @@
 				<execute>mozo</execute>
 			</action>
 		</item>
+# ---------------------------------------------
 # Es el menú editable de OpenBox
+# ---------------------------------------------
 		<item label="Menu OpenBox">
 			<action name="Execute">
 				<execute>obmenu</execute>
 			</action>
 		</item>
+# ---------------------------------------------
 # Menú de la configuración de apariencia de OpenBox
+# ---------------------------------------------
 		<item label="Conf OpenBox">
 			<action name="Execute">
 				<execute>obconf</execute>
@@ -364,10 +381,14 @@
 			<action name="Reconfigure"/>
 		</item>
 # ---------------------------------------------
+# ---------------------------------------------
 		<separator/>
 		<separator/>
 # ---------------------------------------------
-# Menú generado por "mmaker", para que no ocupe tanto espacio, lo incluí a todos dentro de un menú nombrado "Otros" ;)
+# ---------------------------------------------
+
+# ---------------------------------------------
+# Menú generado por "mmaker". Para que no ocupe tanto espacio, lo incluí a todos dentro de un menú nombrado "Otros" ;)
 # ---------------------------------------------
 		<menu id="root-menu-664140" label="Otros">
 			<menu id="1" label="Development">
@@ -1341,14 +1362,18 @@
 			</menu>
 		</menu>
 # ---------------------------------------------
+# ---------------------------------------------
 		<separator/>
+# ---------------------------------------------
 # ---------------------------------------------
 		<item label="Exit">
 			<action name="Exit"/>
 		</item>
 # ---------------------------------------------
+# ---------------------------------------------
 		<separator/>
 		<separator/>
+# ---------------------------------------------
 # ---------------------------------------------
 	</menu>
 </openbox_menu>
