@@ -1,0 +1,25 @@
+#!/bin/bash
+# ==============================
+# screenfetch_comhuayra: Script para instalar automaticamente ScreenFetch en Huayra GNU/Linux.
+
+# Comentarios:
+#             Se espera que funcione correctamente, en Huayra GNU/Linux, con entorno Mate activo.
+#             Se probó en versión: 2.2 (32bits/64bits).
+
+# Uso: 
+#     1) Otorgar permisos de ejecución al archivo "logo_huayra_mate_script". (botón derecho sobre el archivo, selecionamos->"propiedades", en la pestaña ->"permisos", seleccionar la opción ->"ejecución: Permitir ejecutar el archivo como un programa".
+#     2) Abrir con doble click y seleccionar ->"ejecutar en un terminal" y se instalará automáticamente.
+#====================================================
+
+echo instalador de prompt
+echo ...dentro 5 seg se inicia el script, para cancelar cierre la terminal.
+sleep 5s
+
+cd /usr/bin 
+sudo wget -c https://raw.githubusercontent.com/ComHuayra/HerramComHuayra/master/logo_huayra_mate -O logo_huayra_mate
+sudo chmod 755 logo_huayra_mate
+echo "logo_huayra_mate" >> ~/.bashrc
+
+echo Listo :D. Cerrando en 5 seg.
+sleep 5s
+exit
